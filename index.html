@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idea Mixer AI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <main class="app-container">
+        <h1>Ideas Mixer AI</h1>
+        <p>Enter topics or subjects and let AI brainstorm creative combinations for you.</p>
+
+        <div class="form-container">
+            <div id="input-container">
+                <!-- Initial two text fields -->
+                <input type="text" class="topic-input" placeholder="Enter topic #1 (e.g., 'Space Exploration')">
+                <input type="text" class="topic-input" placeholder="Enter topic #2 (e.g., 'Sustainable Farming')">
+            </div>
+
+            <div class="button-controls">
+                <button id="add-field-btn" title="Add another topic field">+ Add Topic</button>
+                <button id="run-btn">Mix Ideas!</button>
+            </div>
+        </div>
+
+        <div id="result-container">
+            <div id="loader" class="loader" style="display: none;"></div>
+            <div id="result-content">
+                <p class="placeholder-text">Your mixed ideas will appear here...</p>
+            </div>
+        </div>
+		<p >| Developed by <a href="https://linktr.ee/DangerousAngel" class="angel">DangerousAngel.</a></p>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
