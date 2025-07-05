@@ -17,4 +17,4 @@ A web tool that generates creative combinations from multiple topics using AI. E
 - HTML/CSS/JavaScript
 - [Poppins Google Font](https://fonts.google.com/specimen/Poppins)
 
-Developed by [DangerousAngel](https://linktr.
+Developed by https://linktr.ee/DangerousAngel
