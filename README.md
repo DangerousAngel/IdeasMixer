@@ -1,7 +1,7 @@
 # IdeasMixer
 Ideas Mixer AI through Gemini api.
 A web tool that generates creative combinations from multiple topics using AI. Enter any subjects (like "Space Exploration" and "Sustainable Farming") and discover innovative mashup ideas.
-
+![AIMixer](ScreenshotAiMixer.png)
 ## Features
 - Add unlimited topic fields
 - Clean, responsive interface
